@@ -83,7 +83,7 @@ jupyter lab --no-browser --port=<PortID>
 
 
 
-It will provide you with the link to open notebook. It has token so use the link.
+It will provide you with the link to open jupyter notebook/ lab landing page. It has token so use the link.
 
 example:
  ``
