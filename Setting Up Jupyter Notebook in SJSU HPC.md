@@ -81,10 +81,14 @@ PortID Range - 10000 - 99999
 SSH -L <PortID>:localhost:<PortID> <StudentID>@coe-hpc1.sjsu.edu
 ``
 # Create tunnel from the current session to the earlier session
-Use the same PortID. It can occupied, so do check when setting up it is succesfull.
+Use the same PortID.
+
 ``
 SSH -L <PortID>:localhost:<PortID> StudentId@<NodeID>
 ``
+
+**Note** Port can beoccupied, so do check when setting up, if  it is succesfull.
+
 # (Optional) Change the conda environment
 ``
 Conda activate enviroment-name
