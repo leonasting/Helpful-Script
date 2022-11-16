@@ -34,7 +34,10 @@ You need VPN(cisco anyconnect) to sjsu servers.
 
 Check for Student Sign on
 # Connect to HPC
-shell connect command
+
+Shell connect command
+
+**Note** <Student ID> - Place holder of student id example **015898XXX**
 ``
 SSH  <Student ID> @ coe-hpc.sjsu.edu
 or 
@@ -64,6 +67,9 @@ StudentID@NodeID -> Remember the node
 
 # Create another session to create local tunnel from you own PC to Server
 PortID Range - 10000 - 99999
+
+- **Note** coe-hpc1.sjsu.edu  or coe-hpc.sjsu.edu 
+
 ``
 SSH -L <PortID>:localhost:<PortID> <StudentID>@coe-hpc1.sjsu.edu
 ``
