@@ -65,7 +65,9 @@ SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 ``
 
 You will be allocated a particular Node:
-StudentID@NodeID -> Remember the node
+
+```StudentID@NodeID``` -> Remember the node
+
 **Note:** NodeID is important
 
 
