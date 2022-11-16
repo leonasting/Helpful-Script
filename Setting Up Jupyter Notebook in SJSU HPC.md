@@ -37,12 +37,17 @@ Check for Student Sign on
 
 Shell connect command
 
-**Note** <Student ID> - Place holder of student id example **015898XXX**
+
+	
 ``
 SSH  <Student ID> @ coe-hpc.sjsu.edu
 or 
 SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 ``
+
+**Note** <Student ID> - It is Place holder for student id like  **015898XXX**
+
+
 # Use Slurm command to create interactive session
 
 - gres -> For GPU
