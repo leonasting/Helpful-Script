@@ -1,6 +1,6 @@
 # Setting Up Jupyter Notebook on SJSU HPC
 
-**Reference:** (SJSU official HPC Cluster Page) [http://coe-hpc-web.sjsu.edu/]
+**Reference:** [SJSU official HPC Cluster Page](http://coe-hpc-web.sjsu.edu/)
 
 There are following steps to work on HPC
 1. Connection to SSJU server
