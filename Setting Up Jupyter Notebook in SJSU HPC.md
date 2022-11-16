@@ -11,6 +11,7 @@ There are following steps to work on HPC
 2. Connect to HPC 
 
 	a. If you use MAC/Linux  - Default Shell
+	
 	b. If you use Windows - Use poweshell (Update till the latest connect)
 	
 3. Use Slurm command to create interactive session(this session will be accessed later)
