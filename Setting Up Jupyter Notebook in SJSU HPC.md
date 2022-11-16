@@ -45,7 +45,7 @@ or
 SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 ``
 
-**Note** <Student ID> - It is Place holder for student id like  **015898XXX**
+**Note** <Student ID> is a Place holder for student id like  **015898XXX**
 
 
 # Use Slurm command to create interactive session
