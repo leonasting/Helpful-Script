@@ -72,10 +72,17 @@ SSH -L <PortID>:localhost:<PortID> StudentId@<NodeID>
 Conda activate enviroment-name
 ``
 
-#  Setup No-browser session of jupyter notebook / jupyter lab based on you
+#  Setup No-browser session of jupyter notebook / jupyter lab 
 ``
 jupyter notebook --no-browser --port=<PortID>
 ``
+
+``
+jupyter lab --no-browser --port=<PortID>
+``
+
+
+
 It will provide you with the link to open notebook. It has token so use the link.
 
 example:
