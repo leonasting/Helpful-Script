@@ -37,8 +37,9 @@ SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 ``
 # Use Slurm command to create interactive session
 
--gres -> For GPU
--c -> Number of nodes
+- gres -> For GPU
+- c -> Number of nodes
+
 Exampel:
 ``
  srun -p gpu --gres=gpu -n 1 -N 1 -c 2 --pty /bin/bash
