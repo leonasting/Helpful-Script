@@ -1,13 +1,17 @@
 # Setting Up Jupyter Notebook on SJSU HPC
 
+**Reference:** http://coe-hpc-web.sjsu.edu/ [http://coe-hpc-web.sjsu.edu/]
+
 There are following steps to work on HPC
 1. Connection to SSJU server
-Session 1:
+
+**Session 1:**
+
 2. Connect to HPC 
 	a. If you use MAC/Linux  - Default Shell
 	b.If you use Windows - Use poweshell (Update till the latest connect) 
 3. Use Slurm command to create interactive session(this session will be accessed later)
-Session 2:
+**Session 2:**
 4. Create another session to create local tunnel from you own PC to Server
 5. Create tunnel from the current session to the earlier session  
 6. (Optional) If you use conda environment change the conda environment 
