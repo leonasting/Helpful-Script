@@ -25,8 +25,13 @@ There are following steps to work on HPC
 
 # Connection to SJSU server
 
-If you are in SJSU campus you dont need VPN to connect to server otherwise.
-You need VPN access use sjsu vpn anyconnect.
+If you are present inside SJSU campus like library or engineering building you can skip this step.
+You need VPN(cisco anyconnect) to sjsu servers.
+
+- Cisco AnyConnect Secure Mobility Client 
+- Url : vpn.sjsu.edu
+- Group : Student-SSO
+
 Check for Student Sign on
 # Connect to HPC
 shell connect command
