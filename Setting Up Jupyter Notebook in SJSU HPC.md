@@ -41,11 +41,12 @@ SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 - c -> Number of cpu nodes
 - n -> Number of tasks
 - N -> Number of Nodes
-Exampe l with GPU:
+
+### Exampe l with GPU:
 ``
  srun -p gpu --gres=gpu -n 1 -N 1 -c 2 --pty /bin/bash
 ``
-Exampe 2 with CPU:
+### Exampe 2 with CPU:
 ``
  srun -p  -n 1 -N 1 -c 2 --pty /bin/bash
 ``
@@ -56,22 +57,22 @@ StudentID@NodeID -> Remember the node
 
 
 
-## Create another session to create local tunnel from you own PC to Server
+# Create another session to create local tunnel from you own PC to Server
 PortID Range - 10000 - 99999
 ``
 SSH -L <PortID>:localhost:<PortID> <StudentID>@coe-hpc1.sjsu.edu
 ``
-## Create tunnel from the current session to the earlier session
+# Create tunnel from the current session to the earlier session
 Use the same PortID. It can occupied, so do check when setting up it is succesfull.
 ``
 SSH -L <PortID>:localhost:<PortID> StudentId@<NodeID>
 ``
-## (Optional) Change the conda environment
+# (Optional) Change the conda environment
 ``
 Conda activate enviroment-name
 ``
 
-##  Settup No-browser session of jupyter notebook / jupyter lab based on you
+#  Setup No-browser session of jupyter notebook / jupyter lab based on you
 ``
 jupyter notebook --no-browser --port=<PortID>
 ``
