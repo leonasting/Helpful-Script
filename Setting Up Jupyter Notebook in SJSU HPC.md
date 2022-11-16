@@ -38,15 +38,21 @@ SSH  <Student ID> @ coe-hpc1.sjsu.edu (Note:1)
 # Use Slurm command to create interactive session
 
 - gres -> For GPU
-- c -> Number of nodes
-
-Exampel:
+- c -> Number of cpu nodes
+- n -> Number of tasks
+- N -> Number of Nodes
+Exampe l with GPU:
 ``
  srun -p gpu --gres=gpu -n 1 -N 1 -c 2 --pty /bin/bash
 ``
+Exampe 2 with CPU:
+``
+ srun -p  -n 1 -N 1 -c 2 --pty /bin/bash
+``
+
 You will be allocated a particular Node:
 StudentID@NodeID -> Remember the node
-
+**Note:** NodeID is important
 
 
 
