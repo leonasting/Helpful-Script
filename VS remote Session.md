@@ -1,6 +1,6 @@
 # Visual Studio Code Remote Developement throgh SSH
 
-Refrence: [youtube](https://youtu.be/lKXMyln_5q4)
+**Does not work with HPC as vs server application is not installed on the serve**
 
 ## Setup
 VS Studion Can connect to only linux servers
