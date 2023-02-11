@@ -77,15 +77,15 @@ PortID Range - 10000 - 99999
 
 - **Note** coe-hpc1.sjsu.edu  or coe-hpc.sjsu.edu 
 
-``
+```
 SSH -L <PortID>:localhost:<PortID> <StudentID>@coe-hpc1.sjsu.edu
-``
+```
 # Create tunnel from the current session to the earlier session
 Use the same PortID.
 
-``
+```
 SSH -L <PortID>:localhost:<PortID> StudentId@<NodeID>
-``
+```
 
 **Note** Port can beoccupied, so do check when setting up, if  it is succesfull.
 
