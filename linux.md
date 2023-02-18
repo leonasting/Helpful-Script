@@ -2,10 +2,10 @@
 
 htop - To view memory usage.
 
-cd - Change Directory.
-cd .. - to go back to parent directory.
-ls - to view content.
-ls -alt - to view hidden as well.
+cd - Change Directory.<br>
+cd .. - to go back to parent directory.<br>
+ls - to view content.<br>
+ls -alt - to view hidden as well.<br>
 
 touch abc.txt - To create file.
 
