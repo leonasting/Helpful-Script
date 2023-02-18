@@ -20,3 +20,8 @@ git config --global credential.helper cache
 ```
 5. Just do git pull pr push  and enter the token
 
+6. To delete branch locally.
+```
+git branch -d localBranchName
+```
+
