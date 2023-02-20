@@ -1,8 +1,10 @@
 # Environemnt File Export
 
-1. Exporting environment details using pip.
+1. Exporting environment details.
 ```
 pip freeze > requirements.txt
+
+conda list --export > requirements.txt
 ```
 
 2. Recreating environment using the requirements file.
