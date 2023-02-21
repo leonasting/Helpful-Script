@@ -25,3 +25,8 @@ git config --global credential.helper cache
 git branch -d localBranchName
 ```
 
+7. To create new branch 
+```
+git checkout -b branchName
+```
+
