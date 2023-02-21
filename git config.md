@@ -28,5 +28,7 @@ git branch -d localBranchName
 7. To create new branch 
 ```
 git checkout -b branchName
+# Publishing after commit
+git push --set-upstream origin dn
 ```
 
