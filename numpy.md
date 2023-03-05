@@ -1,8 +1,8 @@
 1. To generate random sample from given list.
 
-[source](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html)
-Note Params: Input list/ value like 5 will be considered as np.arrange(5)
-replace= False -> Unique no repeatition.
+[source](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html)<br>
+Note Params: Input list/ value like 5 will be considered as np.arrange(5)<br>
+replace= False -> Unique no repeatition.<br>
 p= list of probabilities.
 
 ```
