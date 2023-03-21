@@ -49,3 +49,8 @@ git pull
 git stash pop
 I don't think it makes any sense to literally ignore the changes, though - half of pull is merge, and it needs to merge the committed versions of content with the versions it fetched.
 
+10. Undo Git Add using restore
+The easiest way to undo your git add command is to use the “git restore” command with the “–staged” option and specify the file you want to unadd.
+```
+$ git restore --staged <file>
+```
