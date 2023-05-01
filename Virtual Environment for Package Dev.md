@@ -5,3 +5,5 @@
 ```
 Conda create -p venv python==3.8 -y 
 ```
+
+2. create two files with names  setup.py and requirements.txt
