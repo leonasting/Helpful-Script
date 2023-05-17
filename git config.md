@@ -69,3 +69,7 @@ git config --list
 ```
 git config --global --unset user.password
 ```
+13. Git cleaning untracked files
+```
+git clean -f -x
+```
