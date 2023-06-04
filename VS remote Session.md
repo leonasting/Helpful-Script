@@ -1,6 +1,22 @@
 # Visual Studio Code Remote Developement throgh SSH
 
-**Does not work with HPC as vs server application is not installed on the serve**
+**Does not work with HPC as if vs server application is not installed on the serve**
+
+## General Steps
+
+1. Get the following extension. The extensions tab can be accessed by shortcut(Ctrl+Shift+X [windows])
+  1. Remote - SSH
+  2. Python (Optional)
+  3. Jupyter(Optional)
+2. Click on the bottom left button "Open the remote window"
+3. If you are aware of command to access the remote server type it in the dialog box and follow along.
+```bash
+example:
+ssh 168982709@coe-hpc1.sjsu.edu 
+ssh student@xyx.xyb.xyx.xyx
+ssh -p 2020 student@xyx.xyb.xyx.xyx
+```
+
 
 ## Setup
 VS Studion Can connect to only linux servers
