@@ -73,3 +73,12 @@ git config --global --unset user.password
 ```
 git clean -f -x
 ```
+
+## Git Remote Repository linking
+
+```
+git remote add origin [url]
+eg:
+git remote add origin [url]
+
+```
