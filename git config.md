@@ -78,12 +78,14 @@ git clean -f -x
 
 ```
 git remote add origin [url]
-eg:
-git remote add origin [url]
 
 ```
 
 2.To push the current branch and set the remote as upstream, use
 ```
 git push --set-upstream origin master
+```
+To remove the origin
+```
+git remote remove origin
 ```
