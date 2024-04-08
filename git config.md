@@ -76,7 +76,9 @@ git clean -f -x
 
 ## Git Remote Repository linking
 
+1. Initialize the file directory as a git repository and link the GitHub repo URL.
 ```
+git init
 git remote add origin [url]
 
 ```
