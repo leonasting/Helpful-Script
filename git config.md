@@ -91,3 +91,10 @@ To remove the origin
 ```
 git remote remove origin
 ```
+
+## Git CI/CD practices
+
+1. ignore .env file
+```
+git rm --cached .env
+```
